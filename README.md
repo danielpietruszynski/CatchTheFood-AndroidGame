@@ -1,4 +1,4 @@
-# CatchTheFood
+# Catch The Food
 Repozytorium zawiera grę, która polega na łapaniu jedzenia (zdobywanie punktów) oraz omijaniu bomb (przegrana)
 
 ## Spis treści:
