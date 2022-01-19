@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CatchTheFood</string>
+
+    <string name="point_food1">15 punktów</string>
+    <string name="point_food">5 punktów</string>
+    <string name="point_bomb">Koniec gry</string>
+    <string name="btn_start">START</string>
+
+    <string name="score">Wynik : %d</string>
+    <string name="start">START</string>
+
+    <string name="result_title">GRA SKOŃCZONA</string>
+    <string name="result_score">%d</string>
+    <string name="high_score">Najlepszy wynik : %d</string>
+    <string name="btn_tryAgain">SPRÓBUJ PONOWNIE</string>
+
+</resources>

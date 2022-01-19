@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/start"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/plane"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/plane"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/food"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/bomb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bomb"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/food1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/food1"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+</LinearLayout>
